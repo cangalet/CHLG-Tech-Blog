@@ -1,0 +1,26 @@
+<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+  <div class="mdl-cell mdl-cell--12-col">
+    <form class="edit-post-form">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text">Edit Post</h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="post-title" name="post-title" value="{{post.title}}"  />
+          <label class="mdl-textfield__label" for="post-title">Post Title</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <textarea class="mdl-textfield__input" rows="5" type="text" id="post_text" name="post_text" />{{post.post_text}}</textarea>
+          <label class="mdl-textfield__label" for="post-text">Post Content</label>
+        </div>
+        <div>
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" type="submit">Update</button>
+          <button type="button" class="delete-post-btn mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Delete post</button>
+        </div>
+      </div>
+    </form>
+  </div>   
+</section>
+
+<script src="/javascript/edit-post.js"></script>
+<script src="/javascript/delete-post.js"></script>
