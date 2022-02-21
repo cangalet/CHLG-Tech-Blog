@@ -1,5 +1,5 @@
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
   {{#each posts as |post|}}
-    {{> post-info post }}
+    <a class="mdl-navigation__link" href="/post/{{id}}">{{> dashboard-post post }}</a>
   {{/each}}  
 </section>

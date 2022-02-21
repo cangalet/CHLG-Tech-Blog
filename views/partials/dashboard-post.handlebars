@@ -1,12 +1,11 @@
-<div class="mdl-card mdl-cell mdl-cell--12-col">
+<div class="post-card mdl-card mdl-cell mdl-cell--12-col">
   <div class="mdl-color--primary mdl-card__title">
     <span class="mdl-chip">
       <span class="mdl-chip__text">Posted by {{user.username}} on </span>
     </span>
   </div>
   <div class="mdl-card__supporting-text">
-    <h4>{{title}}</h4>
-    {{post_text}}
+    <a href="/post/{{id}}" class="mdl-button">{{title}}</a>
   </div>
 </div>
     
