@@ -1,14 +1,13 @@
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-  {{> post-info post}}
+  <div class="mdl-cell mdl-cell--12-col mdl-shadow--2dp">
+    {{> post-info post}}
   <div class="mdl-color-text--primary-contrast mdl-card__supporting-text">
       {{#if loggedIn}}
       {{> comment-form}}
       {{/if}}
       {{> comments post.comments}}
   </div>
+  </div>
+  
 </section>
 
-{{#if loggedIn}}
-<script src="/javascript/comment.js"></script>
-<script src="/javascript/upvote.js"></script>
-{{/if}}

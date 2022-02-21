@@ -12,8 +12,17 @@
     padding-top: 48px;
 }
 
+.card__link {
+    width: 100%
+}
+
 .mdl-textfield {
     width: 100%
+}
+
+.mdl-navigation__card-link {
+    margin:0px;
+    padding: 0px;
 }
 
 .form-card-wide.mdl-card {
