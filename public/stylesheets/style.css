@@ -1,0 +1,16 @@
+.section--center {
+    max-width: 860px;
+}
+
+.page-content {
+    padding: 8px;
+    padding-top: 48px;
+}
+
+.mdl-textfield {
+    width: 100%
+}
+
+.form-card-wide.mdl-card {
+    width: 512px;
+  }
